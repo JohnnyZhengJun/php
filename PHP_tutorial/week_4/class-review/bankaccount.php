@@ -13,7 +13,7 @@
         private $accountNumber = "";
         private $amount = 0;
 
-        public function __construct($accountNumber, $amount)
+        public function __construct($accountNumber, $amount)//constructor
         {
             $this->accountNumber = $accountNumber;
             $this->amount = $amount;
@@ -42,11 +42,10 @@
         }
     }
 
-    $account = new BankAccount("123456789", 1000);
+    $account = new BankAccount("123456789", 1000); //creating an obj
     $account->deposit(500);
     $account->withdraw(200);
     print($account->getBalance());
-    /* Modify by yourself for user input. */
     ?>
 </body>
 </html>
