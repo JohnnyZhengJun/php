@@ -1,4 +1,5 @@
 <?php
+// $_POST to collect the val of the input field. 
     $input;
     if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
