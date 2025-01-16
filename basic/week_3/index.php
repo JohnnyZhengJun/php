@@ -12,6 +12,7 @@
     </form>
     
         <?php
+        // print_r(): prints datatype of array
             $factorial = null;
             if($_SERVER['REQUEST_METHOD'] == 'POST')
             {
